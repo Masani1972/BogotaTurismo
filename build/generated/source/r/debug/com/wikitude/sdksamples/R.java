@@ -9,48 +9,95 @@ package com.wikitude.sdksamples;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int metaButtonBarButtonStyle=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int metaButtonBarStyle=0x7f010000;
+    }
+    public static final class color {
+        public static final int black_overlay=0x7f040000;
+    }
+    public static final class dimen {
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int _c_comerciales=0x7f020000;
+        public static final int _cines=0x7f020001;
+        public static final int _educacion=0x7f020002;
+        public static final int _inicio=0x7f020003;
+        public static final int _menu=0x7f020004;
+        public static final int _museos=0x7f020005;
+        public static final int _otros=0x7f020006;
+        public static final int _parques=0x7f020007;
+        public static final int _rumba=0x7f020008;
+        public static final int _salir=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
     }
     public static final class id {
-        public static final int architectView=0x7f060002;
-        public static final int buttonLaunchUrl=0x7f060000;
-        public static final int button_visit_url=0x7f060009;
-        public static final int mainFragement=0x7f060004;
-        public static final int mainFragementParent=0x7f060003;
-        public static final int poi_description=0x7f060007;
-        public static final int poi_id=0x7f060005;
-        public static final int poi_title=0x7f060006;
-        public static final int textView1=0x7f060001;
-        public static final int url=0x7f060008;
+        public static final int action_settings=0x7f090014;
+        public static final int architectView=0x7f09000c;
+        public static final int buttonLaunchUrl=0x7f09000a;
+        public static final int button_visit_url=0x7f090013;
+        public static final int imageView=0x7f090000;
+        public static final int imageView1=0x7f090002;
+        public static final int imageView2=0x7f090003;
+        public static final int imageView3=0x7f090004;
+        public static final int imageView4=0x7f090005;
+        public static final int imageView5=0x7f090006;
+        public static final int imageView6=0x7f090007;
+        public static final int imageView7=0x7f090008;
+        public static final int imageView8=0x7f090009;
+        public static final int linearLayout=0x7f090001;
+        public static final int mainFragement=0x7f09000e;
+        public static final int mainFragementParent=0x7f09000d;
+        public static final int poi_description=0x7f090011;
+        public static final int poi_id=0x7f09000f;
+        public static final int poi_title=0x7f090010;
+        public static final int textView1=0x7f09000b;
+        public static final int url=0x7f090012;
     }
     public static final class layout {
-        public static final int list_sample=0x7f030000;
-        public static final int list_startscreen=0x7f030001;
-        public static final int sample_1=0x7f030002;
-        public static final int sample_cam=0x7f030003;
-        public static final int sample_cam_fragment_main=0x7f030004;
-        public static final int sample_poidetail=0x7f030005;
-        public static final int urllauncher_main=0x7f030006;
+        public static final int activity_inicio=0x7f030000;
+        public static final int activity_menu=0x7f030001;
+        public static final int list_sample=0x7f030002;
+        public static final int list_startscreen=0x7f030003;
+        public static final int sample_1=0x7f030004;
+        public static final int sample_cam=0x7f030005;
+        public static final int sample_cam_fragment_main=0x7f030006;
+        public static final int sample_poidetail=0x7f030007;
+        public static final int urllauncher_main=0x7f030008;
+    }
+    public static final class menu {
+        public static final int menu_menu=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int compass_accuracy_low=0x7f040001;
-        public static final int device_unsupported=0x7f040002;
-        public static final int footer=0x7f040003;
-        public static final int location_fetching=0x7f040004;
-        public static final int main_title_urlLauncher=0x7f040005;
-        public static final int poi_description=0x7f040006;
-        public static final int poi_detail_title=0x7f040007;
-        public static final int poi_id=0x7f040008;
-        public static final int poi_name=0x7f040009;
-        public static final int title_activity_sample1_poi_detail=0x7f04000a;
-        public static final int urllauncher_button_launch=0x7f04000b;
-        public static final int urllauncher_default_value_textfield=0x7f04000c;
-        public static final int urllauncher_hint_textfield=0x7f04000d;
-        public static final int urllauncher_menu_clear_history=0x7f04000e;
-        public static final int videosrawables_fallback=0x7f04000f;
+        public static final int action_settings=0x7f060000;
+        public static final int app_name=0x7f060001;
+        public static final int compass_accuracy_low=0x7f060002;
+        public static final int device_unsupported=0x7f060003;
+        public static final int dummy_button=0x7f060004;
+        public static final int dummy_content=0x7f060005;
+        public static final int footer=0x7f060006;
+        public static final int hello_world=0x7f060007;
+        public static final int location_fetching=0x7f060008;
+        public static final int main_title_urlLauncher=0x7f060009;
+        public static final int poi_description=0x7f06000a;
+        public static final int poi_detail_title=0x7f06000b;
+        public static final int poi_id=0x7f06000c;
+        public static final int poi_name=0x7f06000d;
+        public static final int title_activity_inicio=0x7f06000e;
+        public static final int title_activity_menu=0x7f06000f;
+        public static final int title_activity_sample1_poi_detail=0x7f060010;
+        public static final int urllauncher_button_launch=0x7f060011;
+        public static final int urllauncher_default_value_textfield=0x7f060012;
+        public static final int urllauncher_hint_textfield=0x7f060013;
+        public static final int urllauncher_menu_clear_history=0x7f060014;
+        public static final int videosrawables_fallback=0x7f060015;
     }
     public static final class style {
         /** 
@@ -61,9 +108,50 @@ public final class R {
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
-        public static final int AppTheme=0x7f050001;
-        public static final int AutoCompleteTextViewLight=0x7f050002;
-        public static final int Widget_DropDownItemLight=0x7f050003;
+        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppTheme=0x7f070001;
+        public static final int AutoCompleteTextViewLight=0x7f070002;
+        public static final int ButtonBar=0x7f070003;
+        public static final int ButtonBarButton=0x7f070004;
+        public static final int FullscreenActionBarStyle=0x7f070007;
+        public static final int FullscreenTheme=0x7f070005;
+        public static final int Widget_DropDownItemLight=0x7f070006;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a ButtonBarContainerTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_metaButtonBarButtonStyle com.wikitude.sdksamples:metaButtonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_metaButtonBarStyle com.wikitude.sdksamples:metaButtonBarStyle}</code></td><td></td></tr>
+           </table>
+           @see #ButtonBarContainerTheme_metaButtonBarButtonStyle
+           @see #ButtonBarContainerTheme_metaButtonBarStyle
+         */
+        public static final int[] ButtonBarContainerTheme = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.wikitude.sdksamples.R.attr#metaButtonBarButtonStyle}
+          attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.wikitude.sdksamples:metaButtonBarButtonStyle
+        */
+        public static final int ButtonBarContainerTheme_metaButtonBarButtonStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.wikitude.sdksamples.R.attr#metaButtonBarStyle}
+          attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.wikitude.sdksamples:metaButtonBarStyle
+        */
+        public static final int ButtonBarContainerTheme_metaButtonBarStyle = 0;
+    };
 }

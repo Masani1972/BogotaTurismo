@@ -5,6 +5,7 @@ import java.io.File;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -61,6 +62,8 @@ public class MainSamplesListActivity extends ListActivity {
 					this.getActivitiesIr()[position]);
 			intent.putExtra(EXTRAS_KEY_ACTIVITY_GEO,
 					this.getActivitiesGeo()[position]);
+			Log.i("long Intent", this.getListLabels()[position] + " " + File.separator + this.getArchitectWorldUrls()[position]
+					+ File.separator + "index.html" + " " + this.getActivitiesIr()[position] + " " + this.getActivitiesGeo()[position]);
 
 			/* launch activity */
 			this.startActivity(intent);

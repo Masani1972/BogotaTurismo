@@ -6,188 +6,220 @@ ADDED from AndroidManifest.xml:2:1
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:versionName
-		ADDED from AndroidManifest.xml:5:5
+		ADDED from AndroidManifest.xml:6:5
 	android:versionCode
-		ADDED from AndroidManifest.xml:4:5
+		ADDED from AndroidManifest.xml:5:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	xmlns:android
 		ADDED from AndroidManifest.xml:2:11
 	android:installLocation
-		ADDED from AndroidManifest.xml:6:5
-uses-permission#android.permission.INTERNET
-ADDED from AndroidManifest.xml:8:5
-	android:name
-		ADDED from AndroidManifest.xml:8:22
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from AndroidManifest.xml:9:5
-	android:name
-		ADDED from AndroidManifest.xml:9:22
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from AndroidManifest.xml:10:5
-	android:name
-		ADDED from AndroidManifest.xml:10:22
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from AndroidManifest.xml:11:5
-	android:name
-		ADDED from AndroidManifest.xml:11:22
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from AndroidManifest.xml:12:5
-	android:name
-		ADDED from AndroidManifest.xml:12:22
-uses-permission#android.permission.ACCESS_GPS
-ADDED from AndroidManifest.xml:13:5
-	android:name
-		ADDED from AndroidManifest.xml:13:22
-uses-permission#android.permission.CAMERA
-ADDED from AndroidManifest.xml:14:5
-	android:name
-		ADDED from AndroidManifest.xml:14:22
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:15:5
-	android:name
-		ADDED from AndroidManifest.xml:15:22
-uses-feature#0x00020000
-ADDED from AndroidManifest.xml:18:5
-	android:glEsVersion
-		ADDED from AndroidManifest.xml:18:19
-	android:required
-		ADDED from AndroidManifest.xml:18:52
-uses-feature#android.hardware.camera
-ADDED from AndroidManifest.xml:21:2
-	android:required
-		ADDED from AndroidManifest.xml:21:55
-	android:name
-		ADDED from AndroidManifest.xml:21:16
-uses-feature#android.hardware.location
-ADDED from AndroidManifest.xml:24:2
-	android:required
-		ADDED from AndroidManifest.xml:24:57
-	android:name
-		ADDED from AndroidManifest.xml:24:16
-uses-feature#android.hardware.sensor.accelerometer
-ADDED from AndroidManifest.xml:27:2
-	android:required
-		ADDED from AndroidManifest.xml:27:69
-	android:name
-		ADDED from AndroidManifest.xml:27:16
-uses-feature#android.hardware.sensor.compass
-ADDED from AndroidManifest.xml:30:2
-	android:required
-		ADDED from AndroidManifest.xml:30:63
-	android:name
-		ADDED from AndroidManifest.xml:30:16
-supports-screens
-ADDED from AndroidManifest.xml:33:2
-	android:largeScreens
-		ADDED from AndroidManifest.xml:34:33
-	android:smallScreens
-		ADDED from AndroidManifest.xml:34:4
-	android:normalScreens
-		ADDED from AndroidManifest.xml:35:4
-	android:xlargeScreens
-		ADDED from AndroidManifest.xml:36:4
-	android:anyDensity
-		ADDED from AndroidManifest.xml:35:33
+		ADDED from AndroidManifest.xml:4:5
 uses-sdk
-ADDED from AndroidManifest.xml:38:5
+ADDED from AndroidManifest.xml:8:5
 MERGED from :wikitudesdk::7:5
-MERGED from com.android.support:support-v4:21.0.0:15:5
+MERGED from com.android.support:support-v4:22.2.1:20:5
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:40:9
+		ADDED from AndroidManifest.xml:10:9
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:minSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.ACCESS_GPS
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-feature#0x00020000
+ADDED from AndroidManifest.xml:22:5
+	android:glEsVersion
+		ADDED from AndroidManifest.xml:23:9
+	android:required
+		ADDED from AndroidManifest.xml:24:9
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:27:5
+	android:required
+		ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:28:9
+uses-feature#android.hardware.location
+ADDED from AndroidManifest.xml:32:5
+	android:required
+		ADDED from AndroidManifest.xml:34:9
+	android:name
+		ADDED from AndroidManifest.xml:33:9
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from AndroidManifest.xml:37:5
+	android:required
 		ADDED from AndroidManifest.xml:39:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
-application
-ADDED from AndroidManifest.xml:44:5
-MERGED from :wikitudesdk::11:5
-MERGED from com.android.support:support-v4:21.0.0:16:5
-	android:label
-		ADDED from AndroidManifest.xml:47:9
-	android:allowBackup
-		ADDED from AndroidManifest.xml:45:9
-	android:icon
-		ADDED from AndroidManifest.xml:46:9
-	android:theme
+	android:name
+		ADDED from AndroidManifest.xml:38:9
+uses-feature#android.hardware.sensor.compass
+ADDED from AndroidManifest.xml:42:5
+	android:required
+		ADDED from AndroidManifest.xml:44:9
+	android:name
+		ADDED from AndroidManifest.xml:43:9
+supports-screens
+ADDED from AndroidManifest.xml:47:5
+	android:largeScreens
+		ADDED from AndroidManifest.xml:49:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:51:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:50:9
+	android:xlargeScreens
+		ADDED from AndroidManifest.xml:52:9
+	android:anyDensity
 		ADDED from AndroidManifest.xml:48:9
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:54:5
+	android:name
+		ADDED from AndroidManifest.xml:54:30
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:55:5
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:57:9
+	android:name
+		ADDED from AndroidManifest.xml:56:9
+application
+ADDED from AndroidManifest.xml:63:5
+MERGED from :wikitudesdk::11:5
+MERGED from com.android.support:support-v4:22.2.1:22:5
+	android:label
+		ADDED from AndroidManifest.xml:66:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:64:9
+	android:icon
+		ADDED from AndroidManifest.xml:65:9
+	android:theme
+		ADDED from AndroidManifest.xml:67:9
 activity#com.wikitude.samples.MainActivity
-ADDED from AndroidManifest.xml:49:9
-	android:label
-		ADDED from AndroidManifest.xml:51:13
-	android:name
-		ADDED from AndroidManifest.xml:50:13
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:52:13
-action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:53:17
-	android:name
-		ADDED from AndroidManifest.xml:53:25
-category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:55:17
-	android:name
-		ADDED from AndroidManifest.xml:55:27
-activity#com.wikitude.samples.MainSamplesListActivity
-ADDED from AndroidManifest.xml:60:9
-	android:name
-		ADDED from AndroidManifest.xml:60:19
-activity#com.wikitude.samples.SamplePoiDetailActivity
-ADDED from AndroidManifest.xml:63:9
-	android:name
-		ADDED from AndroidManifest.xml:63:19
-activity#com.wikitude.samples.SampleCamActivity
-ADDED from AndroidManifest.xml:66:9
-	android:configChanges
-		ADDED from AndroidManifest.xml:66:73
-	android:name
-		ADDED from AndroidManifest.xml:66:19
-activity#com.wikitude.samples.SampleCamContentFromNativeActivity
-ADDED from AndroidManifest.xml:67:9
-	android:configChanges
-		ADDED from AndroidManifest.xml:67:90
-	android:name
-		ADDED from AndroidManifest.xml:67:19
-activity#com.wikitude.samples.SampleFrontCamActivity
 ADDED from AndroidManifest.xml:68:9
-	android:configChanges
-		ADDED from AndroidManifest.xml:68:78
+	android:label
+		ADDED from AndroidManifest.xml:70:13
 	android:name
-		ADDED from AndroidManifest.xml:68:19
+		ADDED from AndroidManifest.xml:69:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:71:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:72:17
+	android:name
+		ADDED from AndroidManifest.xml:72:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:74:17
+	android:name
+		ADDED from AndroidManifest.xml:74:27
+activity#com.wikitude.samples.MainSamplesListActivity
+ADDED from AndroidManifest.xml:79:9
+	android:name
+		ADDED from AndroidManifest.xml:79:19
+activity#com.wikitude.samples.SamplePoiDetailActivity
+ADDED from AndroidManifest.xml:82:9
+	android:name
+		ADDED from AndroidManifest.xml:82:19
+activity#com.wikitude.samples.SampleCamActivity
+ADDED from AndroidManifest.xml:85:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+activity#com.wikitude.samples.SampleCamContentFromNativeActivity
+ADDED from AndroidManifest.xml:88:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:90:13
+	android:name
+		ADDED from AndroidManifest.xml:89:13
+activity#com.wikitude.samples.SampleFrontCamActivity
+ADDED from AndroidManifest.xml:91:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:93:13
+	android:name
+		ADDED from AndroidManifest.xml:92:13
 activity#com.wikitude.samples.SamplePluginActivity
-ADDED from AndroidManifest.xml:69:9
+ADDED from AndroidManifest.xml:94:9
 	android:configChanges
-		ADDED from AndroidManifest.xml:69:76
+		ADDED from AndroidManifest.xml:96:13
 	android:name
-		ADDED from AndroidManifest.xml:69:19
+		ADDED from AndroidManifest.xml:95:13
 activity#com.wikitude.samples.utils.urllauncher.ARchitectUrlLauncherActivity
-ADDED from AndroidManifest.xml:72:9
+ADDED from AndroidManifest.xml:99:9
 	android:label
-		ADDED from AndroidManifest.xml:74:13
+		ADDED from AndroidManifest.xml:101:13
 	android:name
-		ADDED from AndroidManifest.xml:73:13
+		ADDED from AndroidManifest.xml:100:13
 activity#com.wikitude.samples.utils.urllauncher.ARchitectUrlLauncherCamActivity
-ADDED from AndroidManifest.xml:75:9
+ADDED from AndroidManifest.xml:102:9
 	android:label
-		ADDED from AndroidManifest.xml:78:13
+		ADDED from AndroidManifest.xml:105:13
 	android:configChanges
-		ADDED from AndroidManifest.xml:77:13
+		ADDED from AndroidManifest.xml:104:13
 	android:name
-		ADDED from AndroidManifest.xml:76:13
+		ADDED from AndroidManifest.xml:103:13
 activity#com.wikitude.tools.activities.MediaPlayerActivity
-ADDED from AndroidManifest.xml:81:3
+ADDED from AndroidManifest.xml:108:9
 	android:screenOrientation
-		ADDED from AndroidManifest.xml:82:4
+		ADDED from AndroidManifest.xml:110:13
 	android:name
-		ADDED from AndroidManifest.xml:81:13
+		ADDED from AndroidManifest.xml:109:13
 intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:83:4
+ADDED from AndroidManifest.xml:111:13
 action#android.intent.action.VIEW
-ADDED from AndroidManifest.xml:84:5
+ADDED from AndroidManifest.xml:112:17
 	android:name
-		ADDED from AndroidManifest.xml:84:13
+		ADDED from AndroidManifest.xml:112:25
 category#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:85:5
+ADDED from AndroidManifest.xml:114:17
 	android:name
-		ADDED from AndroidManifest.xml:85:15
+		ADDED from AndroidManifest.xml:114:27
+activity#com.wikitude.turismo.InicioActivity
+ADDED from AndroidManifest.xml:118:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:122:13
+	android:label
+		ADDED from AndroidManifest.xml:121:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:120:13
+	android:theme
+		ADDED from AndroidManifest.xml:123:13
+	android:name
+		ADDED from AndroidManifest.xml:119:13
+activity#com.wikitude.turismo.MenuActivity
+ADDED from AndroidManifest.xml:130:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:133:13
+	android:label
+		ADDED from AndroidManifest.xml:132:13
+	android:theme
+		ADDED from AndroidManifest.xml:134:13
+	android:name
+		ADDED from AndroidManifest.xml:131:13

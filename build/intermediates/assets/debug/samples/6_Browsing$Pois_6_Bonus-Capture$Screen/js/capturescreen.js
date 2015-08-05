@@ -38,6 +38,8 @@ var World = {
 	// called to inject new POI data
 	loadPoisFromJsonData: function loadPoisFromJsonDataFn(poiData) {
 
+
+
 		// destroys all existing AR-Objects (markers & radar)
 		AR.context.destroyAll();
 
@@ -56,6 +58,7 @@ var World = {
 
 		// loop through POI-information and create an AR.GeoObject (=Marker) per POI
 		for (var currentPlaceNr = 0; currentPlaceNr < poiData.length; currentPlaceNr++) {
+
 			var singlePoi = {
 				"id": poiData[currentPlaceNr].id,
 				"latitude": parseFloat(poiData[currentPlaceNr].latitude),
@@ -64,7 +67,7 @@ var World = {
 				"title": poiData[currentPlaceNr].name,
 				"description": poiData[currentPlaceNr].description
 			};
-
+			//console.log(""+singlePoi.id + " "+ singlePoi.latitude+ " "+singlePoi.longitude+ " "+singlePoi.altitude+ " "+singlePoi.title+ " "+singlePoi.description);
 			World.markerList.push(new Marker(singlePoi));
 		}
 
@@ -287,23 +290,12 @@ var World = {
 		World.updateStatusMessage('Requesting places from web-service');
 
 		// server-url to JSON content provider
-		var serverUrl = ServerInformation.POIDATA_SERVER + "?" + ServerInformation.POIDATA_SERVER_ARG_LAT + "=" + lat + "&" + ServerInformation.POIDATA_SERVER_ARG_LON + "=" + lon + "&" + ServerInformation.POIDATA_SERVER_ARG_NR_POIS + "=20";
+		//var serverUrl = ServerInformation.POIDATA_SERVER + "?" + ServerInformation.POIDATA_SERVER_ARG_LAT + "=" + lat + "&" + ServerInformation.POIDATA_SERVER_ARG_LON + "=" + lon + "&" + ServerInformation.POIDATA_SERVER_ARG_NR_POIS + "=20";
 
-		var jqxhr = $.getJSON(serverUrl, function(data) {
-				World.loadPoisFromJsonData(data);
-			})
-			.error(function(err) {
-				/*
-					Under certain circumstances your web service may not be available or other connection issues can occur. 
-					To notify the user about connection problems a status message is updated.
-					In your own implementation you may e.g. use an info popup or similar.
-				*/
-				World.updateStatusMessage("Invalid web-service response.", true);
-				World.isRequestingData = false;
-			})
-			.complete(function() {
-				World.isRequestingData = false;
-			});
+		var poisNearby = Helper.bringPlacesToUser(myJsonData, lat, lon);
+		World.loadPoisFromJsonData(poisNearby);
+
+	
 	},
 
 	// helper to sort places by distance
@@ -317,6 +309,26 @@ var World = {
 	}
 
 };
+var Helper = {
+
+	/* 
+		For demo purpose only, this method takes poi data and a center point (latitude, longitude) to relocate the given places randomly around the user
+	*/
+	bringPlacesToUser: function bringPlacesToUserFn(poiData, latitude, longitude) {
+		for (var i = 0; i < poiData.length; i++) {
+			poiData[i].latitude = latitude + (Math.random() / 5 - 0.1);
+			poiData[i].longitude = longitude + (Math.random() / 5 - 0.1);
+			/* 
+			Note: setting altitude to '0'
+			will cause places being shown below / above user,
+			depending on the user 's GPS signal altitude. 
+				Using this contant will ignore any altitude information and always show the places on user-level altitude
+			*/
+			poiData[i].altitude = AR.CONST.UNKNOWN_ALTITUDE;
+		}
+		return poiData;
+	}
+}
 
 
 /* forward locationChanges to custom function */
